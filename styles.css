@@ -15,8 +15,9 @@ body{
 }
 @media screen and (max-width: 400px){
     body{
-        background-color:   rgb(83, 83, 36);
+        background-color:   rgb(255, 255, 94);
+        color: black;
         /*Any screen resolution from 0-400px wide*/
-        
+
     }
 }   
