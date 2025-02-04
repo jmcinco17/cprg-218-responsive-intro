@@ -20,6 +20,11 @@ header{
 main{
     grid-area:main;
 }
+#desktop{
+    background-color: rgb(20, 60, 129);
+    color: white;
+    padding: 1rem;
+}
 nav{
     grid-area:nav;
     background-color: #f4f4f4;
@@ -40,6 +45,9 @@ footer{
         "nav"
         "footer"
         ;
+    }
+    #desktop{
+        display: none;
     }
     /*display:block;*/
 }
