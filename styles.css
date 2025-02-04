@@ -1,0 +1,22 @@
+*{
+ box-sizing: border-box;
+}
+body{
+    background-color: #d7f8b5;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:500px){
+    /*any screen resolution from 0-500px wide*/
+    body{
+        background-color: rgb(33, 134, 70);
+        color: white;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        background-color:   rgb(83, 83, 36);
+        /*Any screen resolution from 0-400px wide*/
+        
+    }
+}   
